@@ -2,10 +2,13 @@
   <ion-toolbar color="primary">
     <ion-title>Post List</ion-title>
   </ion-toolbar>
+  <ion-toolbar  >
+    <ion-searchbar  placeholder="Search by post title" (ionInput)="search($event)"></ion-searchbar>
+  </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-searchbar placeholder="Search by post title" (ionInput)="search($event)"></ion-searchbar>
+<ion-content [fullscreen]="true" >
+
   <ion-list>
     <ion-item *ngFor="let post of posts">
       <ion-label class="ion-text-wrap">
