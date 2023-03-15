@@ -24,3 +24,39 @@
 @import "~@ionic/angular/css/text-alignment.css";
 @import "~@ionic/angular/css/text-transformation.css";
 @import "~@ionic/angular/css/flex-utils.css";
+
+
+ion-searchbar {
+
+  .searchbar-input.sc-ion-searchbar-md{
+     padding-left: 10px !important;
+     border-radius: 8px !important;
+     border: 2px solid rgb(163, 159, 159);
+     font-weight: 600;
+
+
+  }
+  .searchbar-search-icon.sc-ion-searchbar-md {
+     display:none;
+     visibility: hidden;
+
+}
+
+}
+ion-searchbar {
+
+   .searchbar-input.sc-ion-searchbar-md{
+      padding-left: 10px !important;
+      border-radius: 8px !important;
+      border: 2px solid rgb(163, 159, 159);
+      font-weight: 600;
+
+
+   }
+   .searchbar-search-icon.sc-ion-searchbar-md {
+      display:none;
+      visibility: hidden;
+
+ }
+
+ }
