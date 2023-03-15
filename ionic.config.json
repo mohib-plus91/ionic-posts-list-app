@@ -1,0 +1,7 @@
+{
+  "name": "ionic-post-list-app",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
